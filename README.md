@@ -20,7 +20,7 @@ Design Decisions:
   - Concurrency: Uses DispatchQueue.main.async to update the UI on the main thread         after fetching data.
 
 
-3. ContentView.swift
+2. ContentView.swift
 
 Assumptions:
 
@@ -35,7 +35,7 @@ Design Decisions:
   - Reusable UI Components: Utilizes SwiftUI views and custom extensions for corner        radius.
 
 
-4. JSONDecoder.swift
+3. JSONDecoder.swift
 
 Assumptions:
 
@@ -49,7 +49,7 @@ Design Decisions:
   - Data Model: Clear separation of concerns with a dedicated model for JSON response.
 
 
-5. PursTKHApp.swift
+4. PursTKHApp.swift
    
 Assumptions:
 
@@ -62,7 +62,7 @@ Design Decisions:
   - Initial View: Sets ContentView as the initial view of the application.
 
     
-6. TimeFormatter.swift
+5. TimeFormatter.swift
    
 Assumptions:
 
